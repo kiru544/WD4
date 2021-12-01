@@ -1,0 +1,40 @@
+.tab-pane {
+  padding: 10px;
+  margin-left: 260px;
+  min-height: 700px;
+}
+.container {
+  padding: 5px;
+}
+.position-absolute {
+  margin-top: -250px;
+}
+.fade {
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  transform: scale(1);
+}
+#big {
+  display: block;
+}
+#mini {
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  .page {
+    margin: 5px;
+    min-height: 500px;
+  }
+  #big {
+    display: none;
+  }
+  #mini,
+  .navbar-toggler,
+  .navbar-toggler-icon {
+    display: block;
+  }
+  svg {
+    display: none;
+  }
+}
